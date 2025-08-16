@@ -5,7 +5,7 @@
   --bg:#0b1220;
   --bg-soft:#0f1830;
   --text:#0f1626;
-  --text-inv:#ffffff;
+  --text-inv: #6d91d2;
   --muted:#6b7280;
   --radius:16px;
   --shadow:0 10px 30px rgba(0,0,0,.15);
@@ -14,7 +14,7 @@
   --font-heading:'Playfair Display',serif;
 }
 :root.dark{
-  --text:#e8ecf5;
+  --text:#6d91d2;
   --text-inv:#0b1220;
   --bg:#0a0f1a;
   --bg-soft:#0f1726;
