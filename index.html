@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Allianza Condomínios — Gestão Condominial Premium</title>
+  <meta name="description" content="Gestão condominial premium com tecnologia, transparência e eficiência. Administração, contabilidade, manutenção e app exclusivo Allianza." />
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Allianza Condomínios — Gestão Premium" />
+  <meta property="og:description" content="Tecnologia, Transparência e Eficiência para condomínios de alto padrão." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1600&auto=format&fit=crop" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading -->
+  <div class="loading-screen" aria-hidden="true">
+    <div class="loading-logo" role="img" aria-label="Allianza">
+      <!-- Minimal premium monogram -->
+      <img src="assets/images/logo-loading.png" alt="Allianza" width="120" height="120"/>
+        <defs>
+          <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="#d2ae6d"/>
+            <stop offset="1" stop-color="#9e7f45"/>
+          </linearGradient>
+        </defs>
+        <circle cx="100" cy="100" r="92" fill="none" stroke="url(#g)" stroke-width="6"/>
+        <path d="M60 140 L100 50 L140 140 M82 100 H118" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="floating-header" role="banner">
+    <div class="header-container">
+      <a class="brand" href="#home" aria-label="Página inicial">
+        <img src="assets/images/logo-allianza.svg" alt="Allianza Condomínios" height="40" />
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="primary-nav" class="dynamic-nav" role="navigation">
+        <ul>
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#tecnologia" class="nav-link">Tecnologia</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <button class="mode-toggle" aria-label="Alternar tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="http://spcondo.ddns.net:98/BoletoOnline/login.jsf" class="cta-button pulse">Gerar Boleto</a>
+        <a href="https://wa.me/5511940364141" class="whatsapp-button" target="_blank" aria-label="Abrir WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero-section" aria-label="Introdução">
+    <div class="parallax-bg" role="img" aria-label="Condomínio de alto padrão"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Gestão Condominial <span>Premium</span></h1>
+      <p class="hero-subtitle">Tecnologia, transparência e eficiência para condomínios de alto padrão.</p>
+      <div class="hero-buttons">
+        <a href="#servicos" class="btn-explore">Explorar serviços</a>
+        <a href="https://wa.me/5511940364141" class="btn-whatsapp" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Fale conosco
+        </a>
+      </div>
+
+      <div class="trust-logos" aria-label="Clientes e parceiros">
+        <img src="assets/images/badge-iso.svg" alt="Conformidade ISO" loading="lazy">
+        <img src="assets/images/badge-sec.svg" alt="Segurança da Informação" loading="lazy">
+        <img src="assets/images/badge-eco.svg" alt="Operação Sustentável" loading="lazy">
+      </div>
+    </div>
+    <div class="scroll-down" aria-hidden="true">
+      <span>Role para descobrir</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Destaque -->
+  <section class="destaque-section">
+    <div class="glass-card">
+      <div class="glass-content">
+        <h2>Por que a Allianza?</h2>
+        <p>Desde 2007, revolucionamos a gestão condominial com tecnologia, transparência e atendimento 5 estrelas.</p>
+        <div class="stats-grid" role="list">
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-count="500">0</span>+
+            <span class="stat-label">Condomínios</span>
+          </div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-count="99">0</span>%
+            <span class="stat-label">Satisfação</span>
+          </div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-number" data-count="16">0</span>+
+            <span class="stat-label">Anos no mercado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="servicos-section" aria-label="Serviços">
+    <h2 class="section-title">Nossos <span>Serviços Exclusivos</span></h2>
+    <div class="servicos-grid">
+      <article class="servico-card">
+        <div class="card-icon"><i class="fas fa-building-shield"></i></div>
+        <h3>Gestão Administrativa</h3>
+        <p>Controle financeiro, prestação de contas automatizada, indicadores e relatórios sob medida.</p>
+        <ul class="card-list">
+          <li>Dashboard executivo em tempo real</li>
+          <li>Relatórios mensais com auditoria</li>
+          <li>Gestão de contratos e fornecedores</li>
+        </ul>
+        <a href="https://wa.me/5511940364141" class="card-link">Saiba mais →</a>
+      </article>
+      <article class="servico-card">
+        <div class="card-icon"><i class="fas fa-calculator"></i></div>
+        <h3>Gestão Contábil</h3>
+        <p>Contabilidade especializada para condomínios com compliance fiscal completo.</p>
+        <ul class="card-list">
+          <li>Conciliação automática</li>
+          <li>Geração de boletos integrada</li>
+          <li>SPED & obrigações acessórias</li>
+        </ul>
+        <a href="https://wa.me/5511940364141" class="card-link">Saiba mais →</a>
+      </article>
+      <article class="servico-card">
+        <div class="card-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+        <h3>Engenharia & Manutenção</h3>
+        <p>Gestão predial com vistorias técnicas, planos preventivos e modernização.</p>
+        <ul class="card-list">
+          <li>Inspeções NR & laudos</li>
+          <li>PCM & cronograma de obras</li>
+          <li>Compliance de segurança</li>
+        </ul>
+        <a href="https://wa.me/5511940364141" class="card-link">Saiba mais →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Tecnologia -->
+  <section id="tecnologia" class="tech-section" aria-label="Tecnologia Allianza">
+    <div class="tech-container">
+      <div class="tech-content">
+        <h2>Tecnologia <span>Allianza</span></h2>
+        <p>Nosso aplicativo exclusivo coloca a gestão do condomínio na palma da mão.</p>
+        <ul class="tech-features">
+          <li><i class="fas fa-check-circle"></i> Assembleias virtuais</li>
+          <li><i class="fas fa-check-circle"></i> Boletos automáticos</li>
+          <li><i class="fas fa-check-circle"></i> Reservas de ambientes</li>
+          <li><i class="fas fa-check-circle"></i> Comunicação instantânea</li>
+        </ul>
+        <div class="app-download">
+          <a href="#" class="download-btn" aria-label="Baixar na App Store"><i class="fab fa-apple"></i> App Store</a>
+          <a href="#" class="download-btn" aria-label="Baixar no Google Play"><i class="fab fa-google-play"></i> Google Play</a>
+        </div>
+      </div>
+      <div class="tech-display">
+        <img src="assets/images/app-mockup.svg" alt="App Allianza no smartphone" class="app-mockup" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="testimonials-section" aria-label="Depoimentos de clientes">
+    <div class="section-header">
+      <h2 class="section-title">O que <span>clientes</span> dizem</h2>
+    </div>
+    <div class="testimonials-carousel" aria-live="polite">
+      <button class="carousel-btn prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="carousel-track">
+        <article class="testimonial">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop" alt="Cliente 1" loading="lazy">
+          <blockquote>“Transparência e eficiência como nunca vimos. O aplicativo é impecável.”</blockquote>
+          <h4>Mariana A.</h4>
+          <span>Síndica — SP</span>
+        </article>
+        <article class="testimonial">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" alt="Cliente 2" loading="lazy">
+          <blockquote>“Economizamos 18% em custos com a gestão da Allianza no primeiro ano.”</blockquote>
+          <h4>Ricardo P.</h4>
+          <span>Conselheiro — RJ</span>
+        </article>
+        <article class="testimonial">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=400&auto=format&fit=crop" alt="Cliente 3" loading="lazy">
+          <blockquote>“Atendimento 5 estrelas. Relatórios claros e auditoria sempre em dia.”</blockquote>
+          <h4>Fernanda L.</h4>
+          <span>Administradora — PR</span>
+        </article>
+      </div>
+      <button class="carousel-btn next" aria-label="Próximo"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq-section" aria-label="Perguntas frequentes">
+    <h2 class="section-title">Dúvidas <span>frequentes</span></h2>
+    <div class="faq-grid">
+      <details class="faq-item">
+        <summary>Como funciona a prestação de contas?</summary>
+        <p>Disponibilizamos relatórios mensais e um dashboard em tempo real com todas as movimentações e notas fiscais anexadas.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Vocês atendem condomínios comerciais?</summary>
+        <p>Sim. Atuamos com residenciais, comerciais e multipropriedade, adaptando processos e SLAs.</p>
+      </details>
+      <details class="faq-item">
+        <summary>O app está incluído no contrato?</summary>
+        <p>Sim, o aplicativo Allianza está incluso sem custo adicional para condôminos e síndicos.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Como migrar de administradora?</summary>
+        <p>Cuidamos de toda a transição, conciliamos saldos e importamos cadastros em até 15 dias úteis.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato-section" aria-label="Fale conosco">
+    <div class="contato-container">
+      <h2>Fale com a <span>Allianza</span></h2>
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-row">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?" required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="cta-button">Enviar</button>
+          <a href="https://wa.me/5511999999999" class="btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+        <p class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contato-methods">
+        <div class="contato-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>contato@allianza.com.br</p>
+          <a href="mailto:contato@allianza.com.br" class="contato-btn">Enviar Mensagem</a>
+        </div>
+        <div class="contato-card">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>(11) 99999-9999</p>
+          <a href="https://wa.me/5511999999999" class="contato-btn" target="_blank">Conversar Agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="luxury-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="assets/images/logo-allianza-white.svg" alt="Allianza" height="40">
+        <p>Gestão Condominial de Excelência</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Allianza Condomínios. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/5511999999999" target="_blank" aria-label="Fale pelo WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js" defer></script>
+
+  <!-- JSON-LD basic org schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Allianza Condomínios",
+    "url": "https://example.com",
+    "logo": "assets/images/logo-allianza.svg",
+    "sameAs": ["https://www.instagram.com/", "https://www.linkedin.com/", "https://www.facebook.com/"]
+  }
+  </script>
+</body>
+</html>
